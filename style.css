@@ -1,0 +1,52 @@
+.cafe-wrapper{
+    display:flex;
+    justify-content:center;
+    padding:40px 0;
+}
+
+.cafe-stage{
+    position:relative;
+    width:1400px;
+}
+
+.cafe-bg{
+    width:100%;
+    display:block;
+}
+
+/* Character base */
+.cafe-char{
+    position:absolute;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+.cafe-char img{
+    height:90px;
+    transition:0.3s ease;
+}
+
+/* Hover effect */
+.cafe-char:hover{
+    transform:scale(1.12);
+    z-index:20;
+}
+
+.cafe-char:hover img{
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.4));
+}
+
+.leader{
+    left:250px;
+    top:380px;
+}
+
+.staff1{
+    left:750px;
+    top:650px;
+}
+
+.staff2{
+    left:1000px;
+    top:600px;
+}
