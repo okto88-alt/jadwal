@@ -19,6 +19,13 @@
     position:absolute;
     cursor:pointer;
     transition:0.3s ease;
+    animation: idleFloat 3s ease-in-out infinite;
+}
+
+@keyframes idleFloat {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-4px); }
+    100% { transform: translateY(0px); }
 }
 
 .cafe-char img{
@@ -39,15 +46,15 @@
 
 .leader{
     left: 210px;
-    top: 190px;
+    top: 180px;
 }
 
 .staff1{
-    left: 520px;
-    top: 330px;
+    left: 500px;
+    top: 300px;
 }
 
 .staff2{
-    left: 820px;
-    top: 320px;
+    left: 780px;
+    top: 300px;
 }
