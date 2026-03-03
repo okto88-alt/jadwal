@@ -22,7 +22,7 @@
 }
 
 .cafe-char img{
-    height:320px;
+    height:360px;
     transition:0.3s ease;
 }
 
@@ -37,16 +37,24 @@
 }
 
 .leader{
-    left: 250px;
-    top: 230px;
+    left: 220px;
+    top: 200px;
 }
 
 .staff1{
-    left: 550px;
-    top: 430px;
+    left: 500px;
+    top: 390px;
 }
 
 .staff2{
-    left: 820px;
-    top: 410px;
+    left: 780px;
+    top: 370px;
+}
+
+.leader img{
+    height:340px;
+}
+
+.staff2 img{
+    height:370px;
 }
