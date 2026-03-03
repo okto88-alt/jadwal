@@ -6,7 +6,7 @@
 
 .cafe-stage{
     position:relative;
-    width:1400px;
+    width:1100px;
 }
 
 .cafe-bg{
@@ -37,16 +37,16 @@
 }
 
 .leader{
-    left: 300px;
-    top: 250px;
+    left: 250px;
+    top: 230px;
 }
 
 .staff1{
-    left: 720px;
-    top: 480px;
+    left: 550px;
+    top: 430px;
 }
 
 .staff2{
-    left: 1050px;
-    top: 450px;
+    left: 820px;
+    top: 410px;
 }
