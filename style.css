@@ -24,6 +24,7 @@
 .cafe-char img{
     height:360px;
     transition:0.3s ease;
+    filter: drop-shadow(0 15px 20px rgba(0,0,0,0.25));
 }
 
 /* Hover effect */
@@ -37,24 +38,16 @@
 }
 
 .leader{
-    left: 220px;
-    top: 200px;
+    left: 210px;
+    top: 190px;
 }
 
 .staff1{
-    left: 500px;
-    top: 390px;
+    left: 520px;
+    top: 330px;
 }
 
 .staff2{
-    left: 780px;
-    top: 370px;
-}
-
-.leader img{
-    height:340px;
-}
-
-.staff2 img{
-    height:370px;
+    left: 820px;
+    top: 320px;
 }
